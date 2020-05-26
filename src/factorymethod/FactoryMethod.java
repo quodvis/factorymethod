@@ -16,7 +16,8 @@ public class FactoryMethod {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Factura f =  new FactoriaFactura.getFactura("iva"); 
+        Factura f = FactoriaFactura.getFactura("iva");
+        //Factura f =  new FactoriaFactura.getFactura("iva"); 
         f.setFacturaId(1);
         f.setFacturaNumero(001);
         f.setImporte(100);
